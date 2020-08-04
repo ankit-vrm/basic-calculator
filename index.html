@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="displayResult">
+        <button type="button" onclick="clInp()" id="c">C</button>
+        <button type="button" onclick="btnValue(7)">7</button>
+        <button type="button" onclick="btnValue(8)">8</button>
+        <button type="button" onclick="btnValue(9)">9</button>
+        <button type="button" onclick="btnValue('+')" class="sign math">+</button>
+        <button type="button" onclick="btnValue(4)">4</button>
+        <button type="button" onclick="btnValue(5)">5</button>
+        <button type="button" onclick="btnValue(6)">6</button>
+        <button type="button" onclick="btnValue('-')" class="sign math">-</button>
+        <button type="button" onclick="btnValue(1)">1</button>
+        <button type="button" onclick="btnValue(2)">2</button>
+        <button type="button" onclick="btnValue(3)">3</button>
+        <button type="button" onclick="btnValue('*')" class="sign math">*</button>
+        <button type="button" onclick="btnValue('.')">.</button>
+        <button type="button" onclick="btnValue(0)">0</button>
+        <button type="button" onclick="result()" class="sign" id="result">=</button>
+        <button type="button" onclick="btnValue('/')" class="sign math">/</button>
+        
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

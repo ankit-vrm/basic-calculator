@@ -1,0 +1,9 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+body{ display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #000050; background:;}
+.container{ height: 310px; width: 250px; background: #000; border-radius: 10px;}
+input{ width: 165px; text-indent: 5px; border-radius: 5px; height: 2rem; margin: 10px; border: 2px solid black;}
+button{ padding: 10px 15px; margin: 10px; border: 0; background: #1c1c1c; border-radius: 50%; font-family: cursive; color: #fff;}
+#c{ background: red;}
+#result{ background: #29bc1e;}
+.math{ background: #fff !important; color: #000;}
+.sign{ background: orangered;}
