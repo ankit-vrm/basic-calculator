@@ -1,12 +1,14 @@
 *{ margin: 0; padding: 0; box-sizing: border-box;}
-body{ display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #000050; background:;}
+body{ display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #000050;}
+body::selection{ outline: none;}
+button:focus{ outline: none;}
 .container{ height: 350px; width: 260px; background: #000; border-radius: 10px;}
 input{ width: 165px; text-indent: 5px; border-radius: 5px; height: 2rem; margin: 10px; border: 2px solid black;}
 button{ padding: 10px 15px; margin: 10px; border: 1px solid; background: #1c1c1c; border-radius: 50%; font-family: cursive; color: #fff;}
 button:hover{ cursor: pointer; box-shadow: 1px 2px 10px #fff; transform: scale(.96); transition: .2s;}
 #c{ background: red;}
 #result{ background: #29bc1e;}
-.math{ background: #fff !important; color: #000;}
+.math{ background: #fff !important; color: #000; font-weight:bold; font-size: 15px;}
 .sign{ background: orangered;}
 
 
