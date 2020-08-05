@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <link rel="stylesheet" href="./css/stylesheet.css">
+    
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 <body>
     <div class="container">
@@ -21,12 +25,11 @@
         <button type="button" onclick="btnValue(2)">2</button>
         <button type="button" onclick="btnValue(3)">3</button>
         <button type="button" onclick="btnValue('*')" class="sign math">*</button>
-        <button type="button" onclick="btnValue('.')">.</button>
+        <button type="button" onclick="btnValue('.')" id="dot">.</button>
         <button type="button" onclick="btnValue(0)">0</button>
         <button type="button" onclick="result()" class="sign" id="result">=</button>
-        <button type="button" onclick="btnValue('/')" class="sign math">/</button>
-        
-    </div>
+        <button type="button" onclick="btnValue('/')" class="sign math" id="devide">/</button>
+     </div>
     
     <script src="js/main.js"></script>
 </body>
